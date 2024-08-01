@@ -16,8 +16,8 @@ async function getAccessToken() {
 
   const headers = new Headers();
   const auth = Buffer.from(
-    `${PAYPAL_CLIENT_ID}:${PAYPAL_CLIENT_SECRET}`
-  ).toString('base64');
+      PAYPAL_CLIENT_ID + ":" + PAYPAL_CLIENT_SECRET,
+    ).toString("base64");
   headers.append('Authorization', `Basic ${auth}`);
   headers.append('Content-Type', 'application/x-www-form-urlencoded');
   if (PAYPAL_MERCHANT_ID) {
