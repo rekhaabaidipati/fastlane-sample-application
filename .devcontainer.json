@@ -41,6 +41,6 @@
             ]
         }
     },
-    "postCreateCommand": "cd /workspaces/${localWorkspaceFolderBasename}/server && cp .env.example node/.env && cd node && npm install",
+    "postCreateCommand": "npm install",
     "postAttachCommand": "npm start"
 }
