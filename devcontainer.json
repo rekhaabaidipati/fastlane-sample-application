@@ -2,14 +2,20 @@
     "name": "Node",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/server/node",
-    "forwardPorts": [
-        3000
-    ],
+    "onCreateCommand": "bash welcome-message.sh",
+     // Use 'postCreateCommand' to run commands after the container is created.
+    "postCreateCommand": "npm install",
+     // Use 'postAttachCommand' to run commands when attaching to the container.
+    "postAttachCommand": {
+    "Start server": "npm start"
+   },
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [8888],
     "portsAttributes": {
-        "3000": {
-            "label": "Node",
-            "onAutoForward": "openBrowserOnce"
-        }
+      "8888": {
+        "label": "Preview of Fastlane Checkout Flow",
+        "onAutoForward": "openBrowserOnce"
+     }
     },
     "secrets": {
         "PAYPAL_CLIENT_ID": {
@@ -34,13 +40,6 @@
         },
         "settings": {
             "git.openRepositoryInParentFolders": "always"
-        },
-        "codespaces": {
-            "openFiles": [
-                "README.md"
-            ]
         }
-    },
-    "postCreateCommand": "npm install",
-    "postAttachCommand": "npm start"
+    }
 }
