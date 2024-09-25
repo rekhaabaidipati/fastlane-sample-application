@@ -1,5 +1,5 @@
 {
-    "name": "Angular + Ruby",
+    "name": "angular-client/ruby-server",
     "image": "mcr.microsoft.com/devcontainers/ruby:2.7",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "forwardPorts": [

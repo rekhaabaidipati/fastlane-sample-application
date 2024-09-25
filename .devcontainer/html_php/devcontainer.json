@@ -1,5 +1,5 @@
 {
-    "name": "HTML + PHP",
+    "name": "html-client/phpt-server",
     "image": "mcr.microsoft.com/devcontainers/php:8",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "forwardPorts": [

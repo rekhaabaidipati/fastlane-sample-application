@@ -1,5 +1,5 @@
 {
-    "name": "Angular + Python",
+    "name": "angular-client/python-server",
     "image": "mcr.microsoft.com/devcontainers/python:3.10",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "forwardPorts": [

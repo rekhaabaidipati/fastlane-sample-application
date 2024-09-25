@@ -1,5 +1,5 @@
 {
-    "name": "Angular + Node",
+    "name": "angular-client/node-server",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "forwardPorts": [

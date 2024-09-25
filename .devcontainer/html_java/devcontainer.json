@@ -1,5 +1,5 @@
 {
-    "name": "HTML + Java",
+    "name": "html-client/java-server",
     "image": "mcr.microsoft.com/devcontainers/java:17",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "forwardPorts": [

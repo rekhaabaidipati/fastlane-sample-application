@@ -1,5 +1,5 @@
 {
-    "name": "Angular + Dotnet",
+    "name": "angular-client/dotnet-server",
     "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "forwardPorts": [

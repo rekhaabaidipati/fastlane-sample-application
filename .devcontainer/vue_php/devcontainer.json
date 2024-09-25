@@ -1,5 +1,5 @@
 {
-    "name": "Vue + PHP",
+    "name": "vue-client/php-server",
     "image": "mcr.microsoft.com/devcontainers/php:8",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "forwardPorts": [

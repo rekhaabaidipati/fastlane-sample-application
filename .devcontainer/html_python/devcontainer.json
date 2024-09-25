@@ -1,5 +1,5 @@
 {
-    "name": "HTML + Python",
+    "name": "html-client/python-server",
     "image": "mcr.microsoft.com/devcontainers/python:3.10",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "forwardPorts": [
